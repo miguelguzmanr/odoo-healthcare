@@ -1,10 +1,13 @@
 {
     "name": "Patient Tags",
-    "summary": "Organize and manage your patients using tags",
+    "version": "14.0.1.0",
     "category": "Health Care/Health Care",
+
+    "summary": "Organize and manage your patients using tags",
     "author": "Miguel Alejandro Guzmán Rodríguez",
 
-    "version": "14.0.1.0",
+    "website": "https://github.com/miguelguzmanr/odoo-healthcare",
+    "license": "GPL-3",
 
     "depends": [
         "hc",
