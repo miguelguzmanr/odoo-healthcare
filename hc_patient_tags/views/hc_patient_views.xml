@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_hc_patient_form_inherit_tags" model="ir.ui.view">
+        <field name="name">hc.patient.form.inherit.tags</field>
+        <field name="model">hc.patient</field>
+        <field name="inherit_id" ref="hc.view_hc_patient_form"/>
+        <field name="arch" type="xml">
+            <div name="title" position="after">
+                <field
+                    name="tag_ids" placeholder="Tags" widget="many2many_tags"
+                    options="{'color_field': 'color'}"
+                />
+            </div>
+        </field>
+    </record>
+
+    <record id="view_hc_patient_kanban_inherit_tags" model="ir.ui.view">
+        <field name="name">hc.patient.kanban.inherit.tags</field>
+        <field name="model">hc.patient</field>
+        <field name="inherit_id" ref="hc.view_hc_patient_kanban"/>
+        <field name="arch" type="xml">
+            <div name="content" position="inside">
+                <field
+                    name="tag_ids" placeholder="Tags" widget="many2many_tags"
+                    options="{'color_field': 'color'}"
+                />
+            </div>
+        </field>
+    </record>
+
+    <record id="view_hc_patient_search_inherit_tags" model="ir.ui.view">
+        <field name="name">hc.patient.search.inherit.tags</field>
+        <field name="model">hc.patient</field>
+        <field name="inherit_id" ref="hc.view_hc_patient_search"/>
+        <field name="arch" type="xml">
+            <search position="inside">
+                <field name="tag_ids" invisible="1"/>
+            </search>
+        </field>
+    </record>
+
+</odoo>
