@@ -2,9 +2,9 @@
 Patients
 ========
 
-.. |badge-stability| image:: https://img.shields.io/badge/stability-alpha-orange.svg
+.. |badge-stability| image:: https://img.shields.io/badge/stability-alpha-orange.png
       :target: https://odoo-community.org/page/development-status
-      :alt: Unstable
+      :alt: Alpha
 .. |badge-license| image:: https://img.shields.io/badge/license-GPL--3-blue.png
       :target: https://www.gnu.org/licenses/gpl-3.0.html
       :alt: GPL-3
