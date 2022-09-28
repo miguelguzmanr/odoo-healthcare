@@ -83,9 +83,9 @@
                                 <group name="attributes" string="Attributes">
                                     <field name="sex" required="1"/>
                                     <field name="blood"/>
-                                    <field name="civil_status_id"/>
-                                    <field name="education_id"/>
-                                    <field name="occupation_id"/>
+                                    <field name="civil_status_id" options="{'no_open': true}"/>
+                                    <field name="education_id" options="{'no_open': true}"/>
+                                    <field name="occupation_id" options="{'no_open': true}"/>
                                 </group>
                             </group>
                             <group name="personal_contact">
