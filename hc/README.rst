@@ -5,7 +5,7 @@ Patients
 .. |badge-stability| image:: https://img.shields.io/badge/stability-alpha-orange.svg
       :target: https://odoo-community.org/page/development-status
       :alt: Unstable
-.. |badge-license| image:: https://img.shields.io/badge/licence-GPL--3-blue.png
+.. |badge-license| image:: https://img.shields.io/badge/license-GPL--3-blue.png
       :target: https://www.gnu.org/licenses/gpl-3.0.html
       :alt: GPL-3
 .. |badge-repository| image:: https://img.shields.io/badge/github-odoo--healthcare-lightgray.png?logo=github
